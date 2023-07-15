@@ -1,0 +1,18 @@
+.cart-body{
+    display: grid;
+    grid-template-columns: 3fr,1fr,1fr;
+
+
+}
+.cart-body-product{
+    display: flex;
+
+}
+.cart-body-detail{
+    display: flex;
+    flex-direction: column;
+}
+.cart-body-quantity{
+    display: flex;
+
+}

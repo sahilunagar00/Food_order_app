@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:any-link{
+    text-decoration: none;
+}
+.RestorentDetail-container{
+    display: flex;
+    width: 95%;
+    text-align: center;
+    height: 82vh;
+}
+.RestorentDetail-container-img {
+    width: 30%;
+    margin-left: 10px;
+    border-right: 3px solid black;
+    padding-right: 14px;
+}
+.RestorentDetail-container-img > img {
+    width: 100%;
+    border-radius: 13px;
+    border: 2px solid white;
+    box-shadow: 4px 4px 12px black;
+}
+.RestorentDetail-card-container{
+    width: 70%;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}

@@ -1,0 +1,481 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+.restorent__container {
+  width: 100vw;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+}
+
+.restorent__container .contain {
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+.contain .link {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 250px;
+  height: 350px;
+  color: #000;
+  border: 2px solid #000;
+  margin: 10px;
+  text-decoration: none;
+  transition: all .35s;
+  position: relative;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 12px #000;
+}
+
+.container:hover {
+  scale: 1.05;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.container__data {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+.container > div {
+  width: 90%;
+  margin: auto;
+}
+
+.container > img {
+  width: 90%;
+  background: none;
+  border-radius: 12px;
+  justify-content: center;
+  margin: 10px auto;
+  display: flex;
+}
+
+.container .time {
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-size: medium;
+  display: flex;
+}
+
+.container .time svg, .container .time .span {
+  width: 100%;
+  margin: auto;
+  font-size: medium;
+}
+
+.container .time * {
+  margin: 0 5px;
+}
+
+.container .offer {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.container .promote {
+  color: #fff;
+  width: 110px;
+  box-sizing: border-box;
+  visibility: hidden;
+  background-color: #3a3c41;
+  border: 2px solid #fff;
+  align-items: center;
+  margin: 0;
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container .star {
+  background-color: #48c479;
+  padding: 3px;
+}
+
+* {
+  margin: 0;
+}
+
+.headerContainer > .link > img {
+  width: 50px;
+  background-color: #000;
+  margin: 10px;
+  display: inline-block;
+}
+
+.headerContainer, .headerContainer > ul {
+  justify-content: space-between;
+  display: flex;
+}
+
+.headerContainer > ul > .link > li {
+  vertical-align: middle;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: auto 20px;
+  padding: 5px;
+  font-size: larger;
+  list-style-type: none;
+}
+
+.headerContainer > ul > .link {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.offers {
+  width: 80%;
+  max-width: 1300px;
+  min-width: 320px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0% auto auto;
+  padding: 30px;
+  display: flex;
+}
+
+.offers .link {
+  min-width: 300px;
+  width: 30%;
+  border-radius: 30px;
+}
+
+.header {
+  width: 100vw;
+  height: 50vh;
+  color: #fff;
+  background-color: #282c3f;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.header p {
+  opacity: .7;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.header .img img {
+  height: 38vh;
+  opacity: .8;
+}
+
+.buttons {
+  box-sizing: border-box;
+  border-bottom: 2px solid gray;
+  margin: 0 auto;
+}
+
+button {
+  color: #282c3f;
+  opacity: .8;
+  background-color: #0000;
+  border: hidden;
+  margin: 10px 10px 0;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button:focus {
+  box-sizing: border-box;
+  opacity: 1;
+  border-bottom: 2px solid #282c3f;
+}
+
+.offer-card-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.voucherType {
+  width: 100vw;
+  margin: 15px;
+  font-size: 28px;
+  font-weight: 800;
+  display: block;
+}
+
+.OfferCard {
+  width: 100%;
+  height: 400px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 5px;
+  transition: all .2s;
+  display: flex;
+}
+
+.OfferCard:hover {
+  scale: 1.03;
+  box-shadow: 15px 15px 15px #000;
+}
+
+.OfferCard * {
+  color: #000;
+  border-radius: 10px;
+}
+
+.OfferCard > img {
+  width: 100%;
+}
+
+.OfferCard .div {
+  height: 50%;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5px;
+  padding: 10px;
+  display: flex;
+}
+
+.OfferCard .info {
+  justify-content: space-between;
+  display: flex;
+}
+
+.offervoucher-card {
+  width: 20%;
+  min-width: 250px;
+  border: 1px solid gray;
+  flex-direction: column;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+}
+
+.offervoucher-card .cardHead {
+  width: 110px;
+  background-color: #fffae6;
+  border: 1px solid #daceb7;
+  margin: 0 0 25px;
+  display: flex;
+}
+
+.offervoucher-card .cardHead span img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.offervoucher-card .cardHead span {
+  height: 20px;
+  font-size: 13px;
+}
+
+.offervoucher-card .cardFoot {
+  flex-direction: column;
+  display: flex;
+}
+
+.offervoucher-card .cardFoot .title {
+  font-size: 1.14 rem;
+  font-weight: 500;
+}
+
+.offervoucher-card .cardFoot .description {
+  font-size: .92 rem;
+  color: #686b78;
+  margin-top: 9px;
+  font-weight: 500;
+}
+
+.offervoucher-card .cardFoot .more {
+  color: #00f;
+  width: 80px;
+  text-align: left;
+  background-color: #0000;
+  margin: 10px 0;
+  padding: 0%;
+  display: inline-block;
+}
+
+.offervoucher-card .cardFoot .copyCode {
+  color: orange;
+  width: 100px;
+  background-color: #0000;
+  border: 1px solid #fca606;
+  margin: 3px;
+  padding: 3px;
+  display: inline-block;
+}
+
+.offervoucher-card .cardFoot h1 {
+  font-size: 1.14 rem;
+  font-weight: 500;
+}
+
+.cart-title {
+  width: 95%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+}
+
+.cart-title-product {
+  width: 55%;
+  margin: auto;
+}
+
+.cart-title-price, .cart-title-quantity, .cart-title-total {
+  width: 15%;
+  margin: auto;
+}
+
+.cart-body {
+  width: 95%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.cart-body-product {
+  width: 55%;
+  display: flex;
+}
+
+.cart-body-product-img {
+  width: 35%;
+}
+
+.cart-body-detail {
+  width: 60%;
+  flex-direction: column;
+  display: flex;
+}
+
+.cart-body-description-remove {
+  background-color: none;
+  border: none;
+  font-weight: 500;
+}
+
+.cart-body-price {
+  width: 15%;
+}
+
+.cart-body-quantity {
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  padding: 4px;
+  display: flex;
+}
+
+.cart-body-quantity button {
+  border: .1px solid gray;
+  justify-content: center;
+}
+
+.cart-body-total {
+  width: 15%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:any-link {
+  text-decoration: none;
+}
+
+.RestorentDetail-container {
+  width: 95%;
+  text-align: center;
+  height: 82vh;
+  display: flex;
+}
+
+.RestorentDetail-container-img {
+  width: 30%;
+  border-right: 3px solid #000;
+  margin-left: 10px;
+  padding-right: 14px;
+}
+
+.RestorentDetail-container-img > img {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 13px;
+  box-shadow: 4px 4px 12px #000;
+}
+
+.RestorentDetail-card-container {
+  width: 70%;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.RestorentCard-card {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.RestorentCard-card .RestorentCard-img {
+  width: 40%;
+  align-items: center;
+  display: flex;
+}
+
+.RestorentCard-card .RestorentCard-img > img {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #000;
+}
+
+.RestorentCard-card .restorentCard-detail {
+  width: 60%;
+  align-items: center;
+  margin-left: 25px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

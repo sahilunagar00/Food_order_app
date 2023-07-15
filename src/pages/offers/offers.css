@@ -1,0 +1,79 @@
+.offers{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   /* background-color: rgb(235, 222, 222); */
+   padding: 30px;
+   width: 80%;
+   max-width: 1300px;
+   min-width: 320px;
+   margin: auto;
+   margin-top: 0%;
+    
+}
+.offers .link{
+    min-width: 300px;
+    width: 30%;
+    border-radius: 30px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw; 
+    height: 50vh;
+    background-color: #282c3f;
+    color: white;
+    align-items: center;
+}
+.header h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.header p{
+    font-size: 22px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+.header .img img{
+    height: 38vh;
+    opacity: 0.8    ;
+}
+.buttons{
+    box-sizing:border-box;
+    border-bottom: 2px solid gray;
+    margin: 0px auto;
+}
+button{
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: hidden;
+    color: #282c3f;
+    background-color: transparent;
+    opacity: 0.8;
+    font-weight: bolder;
+    font-size: 17px;
+}
+button:hover{
+    opacity: 1;  
+}
+button:focus{
+    border-bottom:2px solid #282c3f ;
+    box-sizing: border-box;
+    opacity: 1;  
+
+
+
+}
+.offer-card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.voucherType{
+    display: block;
+    width: 100vw;
+    margin: 15px;
+    font-weight: 800;
+    font-size: 28px;
+}

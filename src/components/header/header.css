@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+}
+.headerContainer> .link >img {
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+}
+.headerContainer{
+    display: flex;  
+    justify-content: space-between;
+}
+.headerContainer> ul{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.headerContainer> ul> .link >li
+{
+    list-style-type: none; 
+    margin: auto 20px;
+    padding: 5px;
+    font-size: larger;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* text-decoration: double; */
+}
+.headerContainer> ul> .link
+{
+   
+    text-decoration: double;
+}

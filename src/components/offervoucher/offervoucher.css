@@ -1,0 +1,151 @@
+.offervoucher-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid grey;
+    /* height: 200vh; */
+}
+.offervoucher-card .cardHead{
+    /* width: 35%; */
+    width: 110px;
+    display: flex;
+    background-color:#fffae6 ;
+    border: 1px solid #daceb7;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.offervoucher-card .cardHead span img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.offervoucher-card .cardHead span{
+    /* width: 50px; */
+    height: 20px;
+    font-size: 13px;
+}
+.offervoucher-card .cardFoot {
+    display: flex;
+    flex-direction: column;
+}
+
+.offervoucher-card .cardFoot .title{
+    font-size: 1.14 rem;
+    font-weight: 500;
+}
+.offervoucher-card .cardFoot .description{
+    font-size: 0.92 rem;
+    font-weight: 500;
+    color: #686b78;
+    margin-top: 9px;
+
+}
+.offervoucher-card .cardFoot .more{
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    padding: 0%;
+    color: blue;
+    background-color: transparent;
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+.offervoucher-card .cardFoot .copyCode{
+    margin: 3px;
+    padding: 3px;
+    color: orange;
+    background-color: transparent;
+    border: 1px solid rgb(252, 166, 6);
+    display: inline-block;
+    width: 100px;
+}
+.offervoucher-card .cardFoot h1{
+    font-size: 1.14 rem;
+    font-weight: 500;
+}
+/* .more-card{
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    background-color: #daceb7;
+    width: 30%;
+    height: 50%;
+    visibility:hidden ;   change to hidden and visible
+}
+.more-card ul li{
+    margin-left: 10px;
+    list-style-type: none;
+}
+.more-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid grey;
+}
+.more-card .cardHead{
+    width: 110px;
+    display: flex;
+    background-color:#fffae6 ;
+    border: 1px solid #daceb7;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.more-card .cardHead span img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.more-card .cardHead span{
+    height: 20px;
+    font-size: 13px;
+}
+.more-card .cardFoot {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-card .cardFoot .title{
+    font-size: 1.14 rem;
+    font-weight: 500;
+}
+.more-card .cardFoot .description{
+    font-size: 0.92 rem;
+    font-weight: 500;
+    color: #686b78;
+    margin-top: 9px;
+
+}
+.more-card .cardFoot .more{
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    padding: 0%;
+    color: blue;
+    background-color: transparent;
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+.more-card .cardFoot .copyCode{
+    margin: 3px;
+    padding: 3px;
+    color: orange;
+    background-color: transparent;
+    border: 1px solid rgb(252, 166, 6);
+    display: inline-block;
+} */
